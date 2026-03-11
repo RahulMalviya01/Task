@@ -1,0 +1,28 @@
+.grid{
+  display:grid;
+  grid-template-column:repeat(3,1fr)
+  gap:20px;
+}
+
+.Card{
+border:1px solid #ddd;
+padding:20px;
+position:relative;
+}
+
+.delete{
+  position:absolute;
+  top:10px;
+  right:10px;
+  background:red;
+  color:white;
+  border:none;
+}
+
+.Pagination {
+  margin-top:20px;
+}
+
+button:{
+  margin:5px;
+}
